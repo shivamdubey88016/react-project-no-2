@@ -1,0 +1,45 @@
+.home {
+  min-height: 90vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-container {
+  background: rgba(0, 0, 0, 0.6);
+ 
+  border-radius: 16px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+}
+
+.header-container h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+}
+
+.header-container p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  color: #ffd700;
+}
+
+.header-container button {
+  background: #ff9800;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.header-container button:hover {
+  background: #ffa726;
+}
